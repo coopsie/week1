@@ -7,7 +7,7 @@ const person = {
             "Mr Brightside",
             "Valerie"],
     sayHi(){
-        return `Hello my name is this name${this.name}`
+        return `Hello my name is ${this.name}`
     }
 }
 console.log(person.sayHi());
